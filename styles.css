@@ -1,0 +1,183 @@
+:root {
+  --bg: #f9fafb;
+  --primary: #1d4ed8;
+  --text: #111827;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --radius: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ---------- CABECERA ---------- */
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+nav button:hover,
+nav button.active {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ---------- CONTENIDO PRINCIPAL ---------- */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#wikiSection {
+  display: block;
+}
+
+#wikiSection.active {
+  display: block;
+}
+
+/* ---------- BUSCADOR ---------- */
+#search {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+/* ---------- TARJETAS COMO CARTAS ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary);
+}
+
+/* Detalles visibles siempre */
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Imagen centrada y visible siempre */
+.card-details img {
+  width: 280px;
+  max-width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Información en columnas ES / IT */
+.info-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.info-grid p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.info-grid strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Botones generales */
+button.primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: var(--radius);
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.2s;
+}
+
+button.primary:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+  .card-details img {
+    width: 200px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
