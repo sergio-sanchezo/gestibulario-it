@@ -1317,7 +1317,7 @@ const gestures = [
     description_it:
       "Indice e mignolo tesi a corna accusano infedeltà coniugale.",
     category_es: "Insulto grave",
-    category_it: "Insulto grave",
+    category_it: "Grave insulto",
     image: "assets/pagina20_img3_cornuto.png",
   },
   {
@@ -1330,7 +1330,7 @@ const gestures = [
     description_it:
       "Il palmo colpisce l'interno del gomito dell'altro braccio teso: gesto di disprezzo fortissimo.",
     category_es: "Insulto grave",
-    category_it: "Insulto grave",
+    category_it: "Grave insulto",
     image: "assets/pagina20_img4_gesto_dell_ombrello.png",
   },
 ];
