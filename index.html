@@ -10,12 +10,20 @@
   <body>
     <header>
       <h1>Gestibulario Italiano</h1>
+      <nav>
+        <button id="wikiBtn" class="active">Wiki</button>
+        <button id="quizBtn">Juego</button>
+      </nav>
     </header>
     <main>
       <!-- Wiki -->
       <section id="wikiSection" class="active">
         <input type="text" id="search" placeholder="Buscar gesto..." />
         <div id="gestureList" class="card-grid"></div>
+      </section>
+      <!-- Juego tipo test -->
+      <section id="quizSection" style="display: none">
+        <div id="quizContainer"></div>
       </section>
     </main>
     <!-- Lógica JS -->

@@ -307,9 +307,9 @@ const gestures = [
     meaning_es: "Ir / Vamos a pie",
     meaning_it: "Vai a piedi? / Vado a piedi",
     description_es:
-      "Índice y medio ‘caminan’ simulando piernas para indicar desplazamiento a pie.",
+      "Índice y medio 'caminan' simulando piernas para indicar desplazamiento a pie.",
     description_it:
-      "Indice e medio ‘camminano’ come gambe per indicare spostamento a piedi.",
+      "Indice e medio 'camminano' come gambe per indicare spostamento a piedi.",
     category_es: "Movimiento",
     category_it: "Camminata",
     image: "assets/pagina15_img9_a_piedi.png",
@@ -329,7 +329,7 @@ const gestures = [
   },
   {
     id: 26,
-    name: "Vieni un po’ qui!",
+    name: "Vieni un po' qui!",
     meaning_es: "Ven aquí / Acércate",
     meaning_it: "Vieni qui!",
     description_es:
@@ -355,9 +355,9 @@ const gestures = [
   },
   {
     id: 28,
-    name: "All’occhio!",
+    name: "All'occhio!",
     meaning_es: "¡Cuidado! / Ojo",
-    meaning_it: "Occhio! / Stai all’occhio",
+    meaning_it: "Occhio! / Stai all'occhio",
     description_es:
       "Índice baja ligeramente el párpado inferior para advertir estar alerta.",
     description_it:
@@ -374,7 +374,7 @@ const gestures = [
     description_es:
       "Los dedos golpean la mesa en cascada imitando el tic-tac de un reloj.",
     description_it:
-      "Le dita battono sul tavolo a cascata imitando il ticchettio dell’orologio.",
+      "Le dita battono sul tavolo a cascata imitando il ticchettio dell'orologio.",
     category_es: "Espera / Impaciencia",
     category_it: "Attesa",
     image: "assets/pagina15_img14_ticchettio_con_le_dita_1.png",
@@ -411,9 +411,9 @@ const gestures = [
     meaning_es: "Aprovechar / Mojar pan",
     meaning_it: "La zuppetta / Ci hanno bagnato il becco",
     description_es:
-      "Mano con dedos unidos palma abajo sube y baja como ‘mojando’ para indicar que alguien se beneficia.",
+      "Mano con dedos unidos palma abajo sube y baja como 'mojando' para indicar que alguien se beneficia.",
     description_it:
-      "Mano a grappolo palmo in giù sale e scende come ‘intingere’ per dire che qualcuno ne approfitta.",
+      "Mano a grappolo palmo in giù sale e scende come 'intingere' per dire che qualcuno ne approfitta.",
     category_es: "Ventaja / Aprovecho",
     category_it: "Avvantaggiamento",
     image: "assets/pagina15_img3_la_zuppetta.png",
@@ -459,7 +459,7 @@ const gestures = [
   },
   {
     id: 36,
-    name: "Indici l’uno contro l’altro (Contrasto)",
+    name: "Indici l'uno contro l'altro (Contrasto)",
     meaning_es: "Esos dos no se soportan",
     meaning_it: "Quei due non si sopportano",
     description_es:
@@ -541,9 +541,9 @@ const gestures = [
     meaning_es: "Luego / Después",
     meaning_it: "A dopo",
     description_es:
-      "Índice gira en círculos hacia adelante para indicar ‘más tarde’.",
+      "Índice gira en círculos hacia adelante para indicar 'más tarde'.",
     description_it:
-      "Indice ruota in senso orario davanti al corpo per indicare ‘più tardi’.",
+      "Indice ruota in senso orario davanti al corpo per indicare 'più tardi'.",
     category_es: "Deixis temporal",
     category_it: "Deissi temporale",
     image: "assets/pagina16_img6_poi.png",
@@ -630,7 +630,7 @@ const gestures = [
     id: 49,
     name: "Palmo battuto sul pugno",
     meaning_es: "¡Toma, trágate esta!",
-    meaning_it: "Te’ cca, agghiùttiti chista!",
+    meaning_it: "Te' cca, agghiùttiti chista!",
     description_es:
       "Palma golpea un puño con pulgar-índice levantados: gesto de desdén o amenaza.",
     description_it:
@@ -670,9 +670,9 @@ const gestures = [
     meaning_es: "Adulación / Hacer la pelota",
     meaning_it: "Sviolinata",
     description_es:
-      "Mano pasa como arco sobre el ‘violín’ del brazo opuesto para indicar halago exagerado.",
+      "Mano pasa como arco sobre el 'violín' del brazo opuesto para indicar halago exagerado.",
     description_it:
-      "La mano mima l'archetto che suona sul ‘violino’ del braccio opposto: adulación esagerata.",
+      "La mano mima l'archetto che suona sul 'violino' del braccio opposto: adulación esagerata.",
     category_es: "Adulación",
     category_it: "Lusinga",
     image: "assets/pagina17_img9_sviolinata.png",
@@ -696,9 +696,9 @@ const gestures = [
     meaning_es: "¡Qué vergüenza!",
     meaning_it: "Vergogna!",
     description_es:
-      "Índice de una mano ‘lima’ el dorso del otro índice para reprochar o avergonzar.",
+      "Índice de una mano 'lima' el dorso del otro índice para reprochar o avergonzar.",
     description_it:
-      "L'indice di una mano ‘lima’ il dorso dell'altro per rimproverare o far vergognare.",
+      "L'indice di una mano 'lima' il dorso dell'altro per rimproverare o far vergognare.",
     category_es: "Reproche",
     category_it: "Vergogna",
     image: "assets/pagina17_img11_lima_lima.png",
@@ -733,7 +733,7 @@ const gestures = [
     id: 57,
     name: "Mani indietro",
     meaning_es: "Yo no tengo nada que ver",
-    meaning_it: "Io non c’entro!",
+    meaning_it: "Io non c'entro!",
     description_es:
       "Palmas al frente a la altura de hombros retroceden para desvincularse de una culpa.",
     description_it:
@@ -810,7 +810,7 @@ const gestures = [
     id: 63,
     name: "Palmo battuto sul pugno (gioia maligna)",
     meaning_es: "¡Toma esa!",
-    meaning_it: "Te’ cca!",
+    meaning_it: "Te' cca!",
     description_es:
       "Palmada sobre puño cerrado produce un sonido para subrayar satisfacción maliciosa.",
     description_it:
@@ -1058,9 +1058,9 @@ const gestures = [
     meaning_es: "¡Te agarré la nariz!",
     meaning_it: "Ti ho preso il naso!",
     description_es:
-      "Se ‘agarra’ la nariz del niño y el pulgar se muestra entre índice y medio simulando tenerla.",
+      "Se 'agarra' la nariz del niño y el pulgar se muestra entre índice y medio simulando tenerla.",
     description_it:
-      "Si ‘prende’ il naso del bambino e il pollice tra indice e medio lo simula.",
+      "Si 'prende' il naso del bambino e il pollice tra indice e medio lo simula.",
     category_es: "Juego infantil",
     category_it: "Gioco",
     image: "assets/pagina19_img13_ti_ho_preso_il_naso.png",
@@ -1071,9 +1071,9 @@ const gestures = [
     meaning_es: "¡Bang!",
     meaning_it: "Bang!",
     description_es:
-      "Índice y pulgar forman una pistola que ‘dispara’ con pequeño retroceso.",
+      "Índice y pulgar forman una pistola que 'dispara' con pequeño retroceso.",
     description_it:
-      "Indice e pollice formano una pistola che ‘spara’ con piccolo rinculo.",
+      "Indice e pollice formano una pistola che 'spara' con piccolo rinculo.",
     category_es: "Juego / Amenaza",
     category_it: "Gioco / Minaccia",
     image: "assets/pagina19_img14_la_pistola.png",
@@ -1207,7 +1207,7 @@ const gestures = [
   },
   {
     id: 94,
-    name: "Indici l’uno contro l’altro (Inimicizia)",
+    name: "Indici l'uno contro l'altro (Inimicizia)",
     meaning_es: "Mala sangre entre ellos",
     meaning_it: "Tra quei due non corre buon sangue",
     description_es: "Índices chocan repetidamente para indicar enemistad.",
@@ -1322,7 +1322,7 @@ const gestures = [
   },
   {
     id: 103,
-    name: "Gesto dell’ombrello",
+    name: "Gesto dell'ombrello",
     meaning_es: "¡Que te den! / Hacer un corte de mangas",
     meaning_it: "Gesto dell'ombrello",
     description_es:
@@ -1373,3 +1373,147 @@ searchInput.addEventListener("input", (e) => {
 
 // Render inicial
 renderList();
+
+// --- Sección de Juego tipo test ---
+const quizSection = document.getElementById("quizSection");
+const quizContainer = document.getElementById("quizContainer");
+const wikiSection = document.getElementById("wikiSection");
+const wikiBtn = document.getElementById("wikiBtn");
+const quizBtn = document.getElementById("quizBtn");
+
+// Navegación entre secciones
+wikiBtn.addEventListener("click", () => {
+  wikiBtn.classList.add("active");
+  quizBtn.classList.remove("active");
+  wikiSection.style.display = "block";
+  quizSection.style.display = "none";
+});
+quizBtn.addEventListener("click", () => {
+  quizBtn.classList.add("active");
+  wikiBtn.classList.remove("active");
+  wikiSection.style.display = "none";
+  quizSection.style.display = "block";
+  startQuiz();
+});
+
+// --- Lógica del juego tipo test ---
+let quizState = {
+  current: 0,
+  questions: [],
+  answered: false,
+};
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function generateQuizQuestions(n = 10) {
+  // Pregunta: ¿Cuál es el siguiente gesto? (dada una imagen)
+  const questions = [];
+  const used = new Set();
+  const total = Math.min(n, gestures.length);
+  while (questions.length < total) {
+    const idx = Math.floor(Math.random() * gestures.length);
+    if (used.has(idx)) continue;
+    used.add(idx);
+    const correct = gestures[idx];
+    // Opciones: 1 correcta + 3 aleatorias
+    let options = [correct];
+    while (options.length < 4) {
+      const oidx = Math.floor(Math.random() * gestures.length);
+      if (oidx !== idx && !options.includes(gestures[oidx])) {
+        options.push(gestures[oidx]);
+      }
+    }
+    options = shuffle(options);
+    questions.push({
+      image: correct.image,
+      correct,
+      options,
+    });
+  }
+  return questions;
+}
+
+function startQuiz() {
+  quizState.questions = generateQuizQuestions(10);
+  quizState.current = 0;
+  quizState.answered = false;
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  const q = quizState.questions[quizState.current];
+  if (!q) {
+    quizContainer.innerHTML = `<h2>¡Juego terminado!</h2><button class="quiz-next-btn" onclick="startQuiz()">Jugar de nuevo</button>`;
+    return;
+  }
+  quizState.answered = false;
+  quizContainer.innerHTML = `
+    <h2>¿Cuál es el siguiente gesto?</h2>
+    <img src="${
+      q.image
+    }" class="quiz-image" alt="Gesto" onerror="this.style.display='none'" />
+    <div class="quiz-options">
+      ${q.options
+        .map(
+          (opt, i) =>
+            `<button class="quiz-option" data-idx="${i}"><b>${String.fromCharCode(
+              65 + i
+            )}.</b> ${opt.name}</button>`
+        )
+        .join("")}
+    </div>
+    <div class="quiz-feedback" id="quizFeedback"></div>
+    <div class="quiz-details" id="quizDetails" style="display:none"></div>
+  `;
+  document.querySelectorAll(".quiz-option").forEach((btn, i) => {
+    btn.addEventListener("click", () => handleQuizAnswer(i));
+  });
+}
+
+function handleQuizAnswer(selectedIdx) {
+  if (quizState.answered) return;
+  quizState.answered = true;
+  const q = quizState.questions[quizState.current];
+  const correctIdx = q.options.findIndex((o) => o === q.correct);
+  document.querySelectorAll(".quiz-option").forEach((btn, i) => {
+    btn.classList.remove("selected");
+    if (i === correctIdx) btn.classList.add("correct");
+    if (i === selectedIdx && i !== correctIdx) btn.classList.add("incorrect");
+    if (i === selectedIdx) btn.classList.add("selected");
+    btn.disabled = true;
+  });
+  const feedback =
+    selectedIdx === correctIdx
+      ? "✅ ¡Correcto!"
+      : `❌ Incorrecto. Era <b>${q.correct.name}</b>`;
+  document.getElementById("quizFeedback").innerHTML = feedback;
+  // Mostrar detalles del gesto correcto
+  document.getElementById("quizDetails").style.display = "block";
+  document.getElementById("quizDetails").innerHTML = `
+    <strong>Significado (ES):</strong> ${q.correct.meaning_es}<br>
+    <strong>Categoría (ES):</strong> ${q.correct.category_es}<br>
+    <strong>Descripción (ES):</strong> ${q.correct.description_es}<br>
+    <hr>
+    <strong>Significato (IT):</strong> ${q.correct.meaning_it}<br>
+    <strong>Categoria (IT):</strong> ${q.correct.category_it}<br>
+    <strong>Descrizione (IT):</strong> ${q.correct.description_it}
+  `;
+  // Botón siguiente
+  const nextBtn = document.createElement("button");
+  nextBtn.className = "quiz-next-btn";
+  nextBtn.textContent =
+    quizState.current < quizState.questions.length - 1
+      ? "Siguiente"
+      : "Terminar";
+  nextBtn.onclick = () => {
+    quizState.current++;
+    renderQuizQuestion();
+  };
+  quizContainer.appendChild(nextBtn);
+}
